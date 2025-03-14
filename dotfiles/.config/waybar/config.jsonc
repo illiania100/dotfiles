@@ -216,12 +216,12 @@
     "custom/power": {
         "format" : "",
 		"tooltip": false,
-		"on-click": "shutdown",
+		"on-click": "systemctl poweroff",
     },
     "custom/reboot": {
 	"format" : "",
 		"tooltip": false,
-		"on-click": "reboot",
+		"on-click": "systemctl reboot",
     },
     "custom/player": {
           "exec": "~/.config/waybar/scripts/player.sh",
